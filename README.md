@@ -37,9 +37,9 @@ EcoTrack is a sustainability-first web application that empowers users to monito
 - bcrypt.js for password hashing
 
 ### DevOps & Tools
-- Vercel / Netlify (Frontend Hosting)
-- Render / Railway (Backend Hosting)
-- Postman / Bruno (API Testing)
+- Vercel (Frontend Hosting)
+- Render (Backend Hosting)
+- Postman (API Testing)
 - Multer + Cloudinary (Image Uploads)
 - Docker (Containerization)
 
@@ -47,4 +47,4 @@ EcoTrack is a sustainability-first web application that empowers users to monito
 - LLM-based autocomplete and smart recommendations for eco goals
 - Intelligent search assistant to answer questions about sustainability
 
-## 📁 File Structure (Simplified)
+
