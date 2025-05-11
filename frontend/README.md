@@ -1,12 +1,55 @@
-# React + Vite
+# 🌱 EcoTrack – Track Your Carbon Footprint & Live Sustainably
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+EcoTrack is a sustainability-first web application that empowers users to monitor, reduce, and manage their environmental impact through intuitive dashboards, goal-setting tools, and real-time data. Whether you're a conscious individual or part of a climate-aware community, EcoTrack helps you take actionable steps toward a greener future.
 
-Currently, two official plugins are available:
+## 🌍 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 🌿 **Real-Time Carbon Footprint Tracking**  
+  Monitor your energy usage, transport habits, and lifestyle choices with live environmental impact metrics.
 
-## Expanding the ESLint configuration
+- 🎯 **Goal Setting & Progress**  
+  Set personalized sustainability goals and track your journey with gamified progress updates.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 📊 **Interactive Dashboard**  
+  Visualize your environmental impact with charts, graphs, and insights based on daily activity.
+
+- 📚 **Educational Content**  
+  Access articles, videos, and tips on living sustainably and reducing your carbon output.
+
+- 🤝 **Community Challenges**  
+  Join eco-challenges, compare progress with friends, and earn badges for completing tasks.
+
+- 🔒 **Secure Authentication**  
+  JWT-based user auth with password hashing via bcrypt.js. Google OAuth also supported.
+
+## 🚀 Tech Stack
+
+### Frontend
+- React.js (with Vite)
+- Tailwind CSS
+- React Router
+- Axios / Fetch API
+
+### Backend
+- Node.js + Express.js
+- MongoDB + Mongoose
+- JWT Authentication
+- bcrypt.js for password hashing
+
+### DevOps & Tools
+- Vercel (Frontend Hosting)
+- Render (Backend Hosting)
+- Postman (API Testing)
+- Multer + Cloudinary (Image Uploads)
+- Docker (Containerization)
+
+## 🧠 AI-Powered Features
+- LLM-based autocomplete and smart recommendations for eco goals
+- Intelligent search assistant to answer questions about sustainability
+
+
+### Frontend 
+Deployment Link Netlify - https://luxury-kleicha-b66d93.netlify.app/
+
+### Backend
+Deployment Link Render - https://s84-aryan-kumar-singh-capstone-project-tldw.onrender.com/
