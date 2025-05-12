@@ -1,10 +1,15 @@
 import React from 'react';
-import heroImage from '../assets/hero-image.jpg';
+import heroImage from '../assets/hero-image.png';
 
 const Hero = () => (
   <section className="flex flex-col md:flex-row items-start md:items-center justify-between px-8 py-12">
-    <div className="md:w-1/2">
-      <h1 className="text-4xl font-bold mb-4">Track Your Carbon Footprint, Change the World</h1>
+    <div className="md:w-1/2 flex flex-col items-center">
+      <h1 className="text-4xl font-bold mb-4 text-center">Track Your Carbon Footprint, Change the World</h1>
+      <img
+        src={heroImage}
+        alt="Hero"
+        className="mx-auto my-4 p-6 max-w-xs md:max-w-sm lg:max-w-md rounded-lg shadow-md"
+      />
     </div>
     <div className="md:w-1/2 mb-6 md:mb-0">
       <p className="mb-4 text-gray-700">
