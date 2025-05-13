@@ -1,17 +1,17 @@
 const express = require('express');
 const router = express.Router();
 
-let adventures = [ // we'll use an in-memory array for now
-  { id: 1, name: 'Mountain Trek', location: 'Manali' },
-  { id: 2, name: 'Scuba Diving', location: 'Goa' }
+let ecoActions = [ // we'll use an in-memory array for now
+  { id: 1, name: 'Plant a Tree', location: 'Community Park' },
+  { id: 2, name: 'Beach Cleanup', location: 'Juhu Beah' }
 ];
 
-// GET all adventures
+// GET all ecoAction
 router.get('/', (req, res) => {
-  res.json(adventures);
+  res.json(ecoActions);
 });
 
-// POST a new adventure
+// POST a new ecoAction
 router.post('/', (req, res) => {
   const { name, location } = req.body;
   
@@ -20,13 +20,15 @@ router.post('/', (req, res) => {
   }
 
   const newAdventure = {
-    id: adventures.length + 1,
+    id: ecoActions.length + 1,
     name,
     location
   };
 
-  adventures.push(newAdventure);
+  ecoActions.push(newAdventure);
   res.status(201).json(newAdventure);
 });
+
+
 
 module.exports = router;
