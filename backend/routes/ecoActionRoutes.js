@@ -3,7 +3,7 @@ const router = express.Router();
 
 let ecoActions = [ // we'll use an in-memory array for now
   { id: 1, name: 'Plant a Tree', location: 'Community Park' },
-  { id: 2, name: 'Beach Cleanup', location: 'Juhu Beah' }
+  { id: 2, name: 'Beach Cleanup', location: 'Juhu Beach' }
 ];
 
 // GET all ecoAction
