@@ -2,7 +2,7 @@
 const express = require('express');
 const dotenv = require('dotenv');
 const connectDB = require('./config/db'); // Your MongoDB connection file
-const adventureRoutes = require('./routes/adventureRoutes');
+const adventureRoutes = require('./routes/ecoActionRoutes');
 
 dotenv.config();
 connectDB();
